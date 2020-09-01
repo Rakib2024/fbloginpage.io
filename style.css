@@ -1,0 +1,393 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	max-width: 1550px; 
+	margin: 0 auto;
+}
+
+.clearfix::after{
+
+	content: "";
+	clear: both;
+
+}
+
+
+
+
+.facebook-header{
+	background: linear-gradient(#3a61af, #264586);
+	overflow: hidden;
+	padding-top: 10px;
+	padding-bottom: 5px;
+	border-bottom:1px solid #133783;
+}
+
+.mid{
+	width: 80%;
+	margin: auto;
+}
+.logo{
+	width: 60%;
+	float: left;
+}
+.login-area{
+	width: 40%;
+	float: left;
+}
+.login1 input, .login2 input {
+	display: block;
+	padding:2px; 
+	border:1px solid #1d2a5b;
+	margin-top: 3px;
+}
+.login1, .login2, .login3{
+	float: left;
+	margin-right: 10px;
+
+}
+.login1 label, .login2 label{
+	color: white;
+	font-family: tahona;
+	font-size: 12px;
+	cursor: pointer;
+}
+.login2 a{
+	text-decoration: none;
+	font-family: tahona;
+	font-size: 12px;
+	color: #9cb4d8;
+}
+.login2 a:hover{
+	text-decoration: underline;
+}
+.logo img{
+	margin-top: 14px;
+	margin-left: 10px;
+}
+.login3{
+	margin-top: 22px;	
+}
+.login3 input{
+	color: white;
+	background: #4267b2;
+	border: 1px solid #29487d;
+	font-size: 11px;
+	font-family: tahona;
+	font-weight: bold;
+	padding: 3px 5px;
+	cursor: pointer;
+}
+.login3 input:hover{
+	background: #365899;
+}
+.facebook-body{
+	background: linear-gradient(#FBFCFF, #D3D8E8);
+	overflow: hidden;
+}
+.body-left{
+	width: 58%;
+	float: left;
+}
+.image{
+	left:200px;
+	}
+
+
+.body-right{
+	width: 42%;
+	float: left;
+	
+}
+.body-left h1{
+	font-size: 36px;
+	color: #333;
+	font-family: tahona;
+	margin-top: 20px;
+
+}
+.body-left p{
+	color:#1d2129;
+	font-family:tahona;
+	font-size:17px; 
+	margin-top: 18px;
+	margin-bottom: 15px;
+}
+.body-right h1{
+	font-size: 36px;
+	color: #333;
+	font-family: tahona;
+	margin-top: 20px;
+}
+.body-right p{
+	color:#1d2129;
+	font-family:tahona;
+	font-size:17px; 
+	margin-top: 18px;
+	margin-bottom: 15px;
+}
+.reg-input input{
+	width: 100%;
+	box-sizing: border-box;
+	font-size: 18px;
+	padding: 8px 10px;
+	border: 1px solid #bdc7d8;
+	border-radius: 5px;
+	margin-bottom:7px; 
+	
+
+}
+.reg-input input:nth-child(1){
+	width: 49%;
+}
+.reg-input input:nth-child(2){
+	width: 49%;
+	float: right;
+}
+.reg-input{
+	width: 95%;
+}
+.rcl{
+	width: 23%;
+	height: 200px;
+	border: 1px solid black;
+	background: white;
+}
+.adc{
+
+	width: 23%;
+	height: 200px;
+	border: 1px solid black;
+	background: white;
+}
+.rcl, .adc{
+	margin: 5px;
+	float: left;
+}
+.rcl a {
+	text-decoration: none;
+	margin-left: 31%;
+	margin-top: 3px;
+}
+.adc a{
+	text-decoration: none;
+	margin-left: 20%;
+
+}
+.rcl img{
+	width: 142px;
+	height: 172px;
+
+}
+.adc img{
+	height: 48px;
+	width: 46px;
+	margin: 42.3% 33.3%;
+}
+.bd{
+	overflow: hidden;
+}
+.bd h2{
+	color:#1d2129;
+	font-size: 18px;
+	font-weight: normal;
+	margin-top: 10px;
+	margin-bottom: 8px;
+
+}
+.bd select{
+	padding: 5px;
+	border: 1px solid #bdc7d8;
+	float: left;
+}
+.bd a{
+	font-size: 11px;
+	color: #365899;
+	text-decoration:none;
+	width: 150px;
+	display: inline-block;
+	margin-left: 10px;
+}
+.bd a:hover{
+	text-decoration: underline;
+}
+.gender{
+	margin-top: 15px;
+
+}
+.gender p{
+	color: #777;
+	width: 316px;
+	font-size: 11px;
+
+}
+.gender p a{
+
+	text-decoration: none;
+	color: #365899;
+}
+.gender p a:hover{
+	text-decoration: underline;
+
+}
+.gender label{
+	font-size: 18px;
+	margin-left: 5px;
+	color: #1d2129;
+	margin-right: 20px;
+	vertical-align: top;
+
+}
+.button p{
+	font-size:13px; 
+	color:#777;
+	font-weight: bold;
+
+}
+.button p a{
+	text-decoration: none;
+	color:#365899; 
+}
+.button p a:hover{
+	text-decoration: underline;
+}
+.button input{
+	font-size: 18px;
+    background-color: rgb(105, 167, 78);
+    border: 1px solid rgb(59, 110, 34);
+    color: white;
+	text-align: center;
+    font-weight: 700;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    text-shadow: rgba(0, 0, 0, 0.5) 0px 1px 2px;
+    border-radius: 7px;
+    height: 39px;
+    padding: 9px;	
+}
+.fbfooter{
+	color: white;
+}
+.footer-top{
+	border-bottom: 1px solid #dddef2;
+}
+.footer-top ul{
+	list-style: none;
+}
+.footer-top ul li{
+	display: inline-block;
+
+
+
+}
+.footer-top ul li a{
+	font-size: 12px;
+	text-decoration: none;
+	color: #365899;
+	padding: 10px 5px;
+	display: block;
+}
+.footer-top ul li a:hover{
+	text-decoration: underline;
+}
+
+.footer-buttom p{
+	color: #737373;
+	font-size: 11px;
+	padding: 20px 0px;
+	margin-left: 5px;
+}
+
+@media all and (max-width:1235px){
+	
+	
+	.logo{
+	width: 50%;
+	float: left;
+	margin-top: 0px;
+	}
+
+	.login-area{
+		float:right;
+		width: 26%;
+	}
+
+	.login3{
+		margin-top: 20px;	
+	}
+	
+	img{
+	width:80%;
+	height:auto;
+	}
+	
+}
+
+@media all and (max-width:1068px){
+
+	.login3{
+		margin-top: 10px;	
+	}
+	
+}
+
+
+@media all and (max-width:750px){
+	
+	.facebook-header{
+	
+		line-height:10px;
+	}
+	
+	.logo{
+	width: 80%;
+	margin-top: -10px;
+	margin-left: 25px;
+	text-align:center;
+	
+}
+
+	.login-area{
+	    
+		width: 32%;
+		margin-top:20px;
+		margin-right:55%;
+	}
+
+	.login3{
+		margin-top: 10px;	
+	}
+	
+	.login1, .login2, .login3 {
+    float: left;
+    margin-right: 10px;
+    padding: 3px;
+}
+
+
+	img{
+		width:95%;
+		height:auto;
+	}
+	.body-left{
+		width:100%;
+		display:none;
+	}
+	
+	.body-right{
+		width:90%;
+		margin-left:10px;
+	}
+	
+	.body-right h1{
+	    font-size: 25px;
+	 }
+	
+	.footer-mid ul{
+	display:none;
+	}
+	
+
+
+}
+
